@@ -1,0 +1,75 @@
+$size-text: 18px;
+
+@font-face{
+    font-family: Nunito Sans;
+    src: url(../fonts/NunitoSans-Regular.ttf);
+}
+
+
+.type-1558{
+    body{
+        font-family: "Nunito Sans";
+    }
+    .input-group{
+        .input-group-prepend{
+            .input-group-text{
+                border-radius: 0;
+            }
+        }
+        input{
+            outline-width: 0 !important;
+            border: 1px solid #ccc;
+            width: 125px;
+            font-size: $size-text;
+            color: #818181;
+        }
+    }
+    
+    .button-grey{
+        background: #ededed;
+        padding: 8px 10px;
+        border: 1px solid #ccc;
+        font-size: $size-text;
+        color: #333;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .select-payment{
+        font-size: 22px;
+        border-bottom: 1px solid rgba(0,0,0,.1);
+    }
+
+    .nav-pills{
+        font-size: $size-text;
+        .nav-item{
+            .nav-link{
+                color: #222222;
+                background: none;
+                font-size: $size-text;
+            }
+        }
+    }
+    .tab-content{
+        font-size: $size-text;
+        input{
+            outline-width: 0 !important;
+        }
+        #content{
+            display: none;
+        }
+    }
+
+    .button-green{
+        font-size: 14px;
+       input{
+           padding: 8px 16px;
+           background: #21bda1;
+           border-radius: 2px;
+       }
+       :hover{
+           background: #2fceb1;
+           cursor: pointer;
+       }
+    }
+    
+}
