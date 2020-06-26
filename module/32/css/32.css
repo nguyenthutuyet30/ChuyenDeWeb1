@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "YesevaOne";
+  src: url('../fonts/YesevaOne-Regular.ttf'); }
+@font-face {
+  font-family: "Mandali";
+  src: url('../fonts/Mandali-Regular.ttf'); }
+@font-face {
+  font-family: "Scheherazade";
+  src: url('../fonts/Scheherazade-Regular.ttf'); }
+
+.type-32 .title-product {
+  position: relative;
+  font-family: "YesevaOne";
+  margin: 20px 0; }
+  .type-32 .title-product .text-opacity span {
+    position: absolute;
+    color: #d9d9d9;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    z-index: -1;
+    opacity: 0.2; }
+  .type-32 .title-product .text-opacity h5 {
+    color: #88b44e;
+    font-style: italic;
+    font-size: 14px; }
+.type-32 .description {
+  font-weight: 400;
+  font-style: italic;
+  font-family: "YesevaOne"; }
+  .type-32 .row .incon-product i {
+    background-color: #88b44e;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+    border-radius: 100%; }
+.type-32 .row .content-product .title-content {
+  font-family: "YesevaOne";
+  font-weight: bold;
+  font-size: 18px;
+  padding: 10px 0; }
+.type-32 .row .content-product p {
+  font-family: "Mandali" !important;
+  font-size: 13px !important; }
+.type-32 .custom-btnreadmore {
+  font-family: "YesevaOne";
+  border: none;
+  color: white;
+  background-color: #4d4d4d;
+  padding: 15px 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin: 20px 0; }
+  .type-32 .custom-btnreadmore i {
+    color: #88b44e; }
+@media (max-width: 768px) {
+  .type-32 .title-product .text-opacity span {
+    font-size: 60px; }
+  .type-32 .title-product .text-opacity h3 {
+    font-size: 20px; } }

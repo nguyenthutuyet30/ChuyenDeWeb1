@@ -1,0 +1,104 @@
+$green-color: #88b44e;
+$white-color: rgba(255, 255, 255, 1);
+$size-text: 14px;
+
+// font: YesevaOne
+@font-face{
+    font-family: "YesevaOne";
+    src: url('../fonts/YesevaOne-Regular.ttf');
+}
+// font: Mandali
+@font-face{
+    font-family: "Mandali";
+    src: url('../fonts/Mandali-Regular.ttf');
+}
+
+// font: Scheherazade
+@font-face{
+    font-family: "Scheherazade";
+    src: url('../fonts/Scheherazade-Regular.ttf');
+}
+
+.type-32{
+    .title-product{
+        position: relative;
+        font-family: "YesevaOne";
+        margin: 20px 0;
+        .text-opacity{
+            span{
+                position: absolute;
+                color: $white-color - 38px;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: $size-text + 96px;
+                z-index: -1;
+                opacity: 0.2;
+            }
+            h5{
+                color: $green-color;
+                font-style: italic;
+                font-size: $size-text;
+            }
+            
+        }
+    }
+    .description{
+        font-weight: 400;
+        font-style: italic;
+        font-family: "YesevaOne";
+    }
+    .row{
+        .incon-product{
+            i{
+                background-color: $green-color;
+                width: 80px;
+                height: 80px;
+                line-height: 80px;
+                color: $white-color;
+                border-radius: 100%;
+            }
+        }
+
+        .content-product{
+            .title-content{
+                font-family: "YesevaOne";
+                font-weight: bold;
+                font-size: $size-text + 4px;
+                padding: 10px 0; 
+              
+            }
+            p{
+                font-family: "Mandali"!important;
+                font-size: $size-text - 1px!important;
+            }
+        }
+    }
+    .custom-btnreadmore{
+        font-family: "YesevaOne";
+        border: none;
+        color: $white-color;
+        background-color: $white-color - 178px;
+        padding: 15px 30px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        margin: 20px 0;
+        i{
+            color: $green-color;
+        }
+    }
+    @media (max-width: 768px) {
+        .title-product{
+            .text-opacity{
+                span{
+                    font-size: $size-text + 46px;
+                }
+                h3{
+                    font-size: $size-text + 6px;
+                }
+            }
+        }
+    }
+}
