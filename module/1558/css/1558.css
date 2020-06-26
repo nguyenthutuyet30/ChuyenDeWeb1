@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Nunito Sans;
+  src: url(../fonts/NunitoSans-Regular.ttf); }
+
+.type-1558 {
+  font-family: "Nunito Sans"; }
+  .type-1558 .input-group .input-group-prepend .input-group-text {
+    border-radius: 0; }
+  .type-1558 .input-group input {
+    outline-width: 0 !important;
+    border: 1px solid #ccc;
+    width: 125px;
+    font-size: 18px;
+    color: #818181; }
+  .type-1558 .button-grey {
+    background: #ededed;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif; }
+  .type-1558 .select-payment {
+    font-size: 22px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+  .type-1558 .nav-pills {
+    font-size: 18px; }
+    .type-1558 .nav-pills .nav-item .nav-link {
+      color: #222222;
+      background: none;
+      font-size: 18px; }
+  .type-1558 .tab-content {
+    font-size: 18px; }
+    .type-1558 .tab-content input {
+      outline-width: 0 !important; }
+    .type-1558 .tab-content #content {
+      display: none; }
+  .type-1558 .button-green {
+    font-size: 14px; }
+    .type-1558 .button-green input {
+      padding: 8px 16px;
+      background: #21bda1;
+      border-radius: 2px; }
+    .type-1558 .button-green :hover {
+      background: #2fceb1;
+      cursor: pointer; }

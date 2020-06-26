@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Nunito Sans;
+  src: url(../fonts/NunitoSans-Light.ttf); }
+
+.type-1553 {
+  font-family: "Nunito Sans"; }
+  .type-1553 .layer-top {
+    background-color: #f8f8f8; }
+    .type-1553 .layer-top h2 {
+      position: absolute;
+      transform: translateY(-50%);
+      top: 50%;
+      z-index: 1;
+      left: 5%; }
+    .type-1553 .layer-top .shape-bottom {
+      transform: rotate(180deg);
+      position: absolute;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+      bottom: -1px;
+      fill: #fff; }
+      .type-1553 .layer-top .shape-bottom svg {
+        display: block;
+        width: calc(150% + 1.3px);
+        height: 190px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%); }
+  .type-1553 h2 {
+    font-size: 48px; }
+  .type-1553 p {
+    font-size: 18px; }
+  @media (max-width: 768px) {
+    .type-1553 .layer-top h2 {
+      font-size: 18px !important; } }
