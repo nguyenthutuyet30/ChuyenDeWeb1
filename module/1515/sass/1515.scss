@@ -1,0 +1,145 @@
+@font-face{
+    font-family: Nunito Sans Regular;
+    src: url('../fonts/NunitoSans-Regular.ttf');
+}
+
+@font-face{
+    font-family: Nunito Sans Light;
+    src: url('../fonts/NunitoSans-Light.ttf');
+}
+$color-green: #21bda1;
+$color-black: #222;
+
+$color-icon: rgba(0,0,0,.15);
+
+$font-size: 30px;
+
+$container: 1349px;
+
+$width: 100%;
+
+$height: 100%;
+
+.p-30{
+    padding: 30px;
+}
+
+
+
+// Top
+.type-1515{
+    position: relative;
+    background-image: url('../images/hero-art-large.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: repeat;
+
+    width: $width;
+    height: $height;
+
+      .container-custom{
+        max-width: $container;
+        margin: auto;
+    }
+    
+    .shape-bottom{
+        transform: rotate(180deg);
+        position: absolute;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        bottom: -1px;
+        fill: #fff;
+        svg{
+            display: block;
+            width: calc(150% + 1.3px);
+            height: 190px;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+    h3{
+
+        font-family: "Nunito Sans Regular";
+
+        font-size: $font-size; // 30px
+
+        .line-text{
+            .text-active{
+                color: $color-black;
+            }
+            .text-color{
+                color: $color-green;
+            }
+          
+            
+            svg{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                width: calc(100% + 20px);
+                height: calc(100% + 20px);
+                transform: translate(-50%, -50%);
+                path{
+                    stroke: $color-green;
+                    stroke-width: 7px;
+                    fill: none;
+                }
+            }
+        }
+       
+    }
+    .boxitem {
+           width: 60%;
+        .title-main{
+            font-size: $font-size + 54px;
+            font-family: "Nunito Sans Light";
+
+            @media(max-width: 768px){
+                font-size: $font-size + 8px !important;
+            }
+        }
+        .button-application{
+            a{
+                font-size: $font-size - 8px; // 22px 
+                border-bottom: 2px solid $color-green;
+                color: $color-black;
+                text-decoration: none;
+                margin: 0 6px;   
+            }
+            :hover{
+                color: $color-green;
+                transition: all 0.3s;
+            }
+        }
+        
+    }
+    
+    .list-icon{
+        i{
+            color: $color-icon;
+        }
+        h3{
+            font-size: 100%;
+        }
+    }
+
+    @media (max-width: 768px){
+        .button-application{
+            a{
+                display: inline-block;
+                padding: 6px 0;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

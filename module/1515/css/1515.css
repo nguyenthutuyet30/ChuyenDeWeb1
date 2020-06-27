@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Nunito Sans Regular;
+  src: url('../fonts/NunitoSans-Regular.ttf'); }
+@font-face {
+  font-family: Nunito Sans Light;
+  src: url('../fonts/NunitoSans-Light.ttf'); }
+
+.p-30 {
+  padding: 30px; }
+
+.type-1515 {
+  position: relative;
+  background-image: url('../images/hero-art-large.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  width: 100%;
+  height: 100%; }
+  .type-1515 .container-custom {
+    max-width: 1349px;
+    margin: auto; }
+  .type-1515 .shape-bottom {
+    transform: rotate(180deg);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    bottom: -1px;
+    fill: #fff; }
+    .type-1515 .shape-bottom svg {
+      display: block;
+      width: calc(150% + 1.3px);
+      height: 190px;
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%); }
+  .type-1515 h3 {
+    font-family: "Nunito Sans Regular";
+    font-size: 30px; }
+    .type-1515 h3 .line-text .text-active {
+      color: #222; }
+    .type-1515 h3 .line-text .text-color {
+      color: #21bda1; }
+    .type-1515 h3 .line-text svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: calc(100% + 20px);
+      height: calc(100% + 20px);
+      transform: translate(-50%, -50%); }
+      .type-1515 h3 .line-text svg path {
+        stroke: #21bda1;
+        stroke-width: 7px;
+        fill: none; }
+  .type-1515 .boxitem {
+    width: 60%; }
+    .type-1515 .boxitem .title-main {
+      font-size: 84px;
+      font-family: "Nunito Sans Light"; }
+    @media (max-width: 768px) {
+      .type-1515 .boxitem .title-main {
+        font-size: 38px !important; } }
+  .type-1515 .boxitem .button-application a {
+    font-size: 22px;
+    border-bottom: 2px solid #21bda1;
+    color: #222;
+    text-decoration: none;
+    margin: 0 6px; }
+  .type-1515 .boxitem .button-application :hover {
+    color: #21bda1;
+    transition: all 0.3s; }
+.type-1515 .list-icon i {
+  color: rgba(0, 0, 0, 0.15); }
+.type-1515 .list-icon h3 {
+  font-size: 100%; }
+@media (max-width: 768px) {
+  .type-1515 .button-application a {
+    display: inline-block;
+    padding: 6px 0; } }
